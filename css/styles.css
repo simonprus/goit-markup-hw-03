@@ -12,9 +12,7 @@ body {
     font-family: 'Roboto', sans-serif;
     color: var(--black-main)
 }
-figure {
-    margin: 0;
-}
+
 .no-decoration {
     text-decoration: none;
     list-style: none;
@@ -29,6 +27,9 @@ a:hover {
 /* ?????? */
 .no-margin {
     margin: 0;
+}
+.section {
+    padding: 94px 0;
 }
 
 /*HEADER*/
@@ -132,6 +133,10 @@ a:hover {
     flex-wrap: wrap;
     align-content: center;
     gap: calc(5% / 3);
+
+}
+.img-portfolio-nav {
+    margin: 0 0 0 0;
 }
 .product-header {
     font-weight: 700;
